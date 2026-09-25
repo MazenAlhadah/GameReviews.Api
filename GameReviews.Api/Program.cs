@@ -1,6 +1,9 @@
 
+using Domain.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
+using Repository.Repositories;
+using Service.Mapping;
 
 namespace GameReviews.Api
 {
@@ -20,8 +23,9 @@ namespace GameReviews.Api
 
             builder.Services.AddDbContext<AppDbContext>(op => { op.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnection")); });
 
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
-
+            builder.Services.AddAutoMapper(x=> { },typeof(MappingProfile));
 
 
 
