@@ -7,6 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\DataSeed\Categories.json" />
+    <None Remove="Data\DataSeed\Games.json" />
+    <None Remove="Data\DataSeed\Reviews.json" />
+    <None Remove="Data\DataSeed\Users.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\DataSeed\Categories.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeed\Games.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeed\Reviews.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeed\Users.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.31" />
   </ItemGroup>
 

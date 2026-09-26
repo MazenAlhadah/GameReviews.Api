@@ -1,0 +1,102 @@
+[
+  {
+    "title": "God of War",
+    "description": "Kratos and his son journey through Norse realms.",
+    "developer": "Santa Monica Studio",
+    "releaseDate": "2018-04-20",
+    "coverImageUrl": "https://example.com/god-of-war.jpg",
+    "categoryId": 1,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Devil May Cry 5",
+    "description": "Stylish demon-hunting action.",
+    "developer": "Capcom",
+    "releaseDate": "2019-03-08",
+    "coverImageUrl": "https://example.com/devil-may-cry-5.jpg",
+    "categoryId": 1,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "description": "Open-world monster hunter RPG.",
+    "developer": "CD Projekt Red",
+    "releaseDate": "2015-05-19",
+    "coverImageUrl": "https://example.com/witcher-3.jpg",
+    "categoryId": 2,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Elden Ring",
+    "description": "Open-world action RPG in the Lands Between.",
+    "developer": "FromSoftware",
+    "releaseDate": "2022-02-25",
+    "coverImageUrl": "https://example.com/elden-ring.jpg",
+    "categoryId": 2,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "description": "Party-based RPG built on D&D rules.",
+    "developer": "Larian Studios",
+    "releaseDate": "2023-08-03",
+    "coverImageUrl": "https://example.com/baldurs-gate-3.jpg",
+    "categoryId": 2,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Civilization VI",
+    "description": "Turn-based empire building.",
+    "developer": "Firaxis Games",
+    "releaseDate": "2016-10-21",
+    "coverImageUrl": "https://example.com/civilization-6.jpg",
+    "categoryId": 3,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "StarCraft II",
+    "description": "Real-time strategy in a sci-fi setting.",
+    "developer": "Blizzard Entertainment",
+    "releaseDate": "2010-07-27",
+    "coverImageUrl": "https://example.com/starcraft-2.jpg",
+    "categoryId": 3,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Rocket League",
+    "description": "Soccer played with rocket-powered cars.",
+    "developer": "Psyonix",
+    "releaseDate": "2015-07-07",
+    "coverImageUrl": "https://example.com/rocket-league.jpg",
+    "categoryId": 4,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "description": "Open-air adventure in Hyrule.",
+    "developer": "Nintendo",
+    "releaseDate": "2017-03-03",
+    "coverImageUrl": "https://example.com/zelda-breath-of-the-wild.jpg",
+    "categoryId": 5,
+    "averageRating": 0,
+    "reviewsCount": 0
+  },
+  {
+    "title": "Hollow Knight",
+    "description": "Hand-drawn metroidvania in a bug kingdom.",
+    "developer": "Team Cherry",
+    "releaseDate": "2017-02-24",
+    "coverImageUrl": "https://example.com/hollow-knight.jpg",
+    "categoryId": 5,
+    "averageRating": 0,
+    "reviewsCount": 0
+  }
+]

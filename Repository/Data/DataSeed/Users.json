@@ -1,0 +1,27 @@
+[
+  {
+    "userName": "ahmed_ali",
+    "email": "ahmed.ali@example.com",
+    "displayName": "Ahmed Ali"
+  },
+  {
+    "userName": "sara_hassan",
+    "email": "sara.hassan@example.com",
+    "displayName": "Sara Hassan"
+  },
+  {
+    "userName": "omar_khaled",
+    "email": "omar.khaled@example.com",
+    "displayName": "Omar Khaled"
+  },
+  {
+    "userName": "mona_adel",
+    "email": "mona.adel@example.com",
+    "displayName": "Mona Adel"
+  },
+  {
+    "userName": "youssef_nabil",
+    "email": "youssef.nabil@example.com",
+    "displayName": "Youssef Nabil"
+  }
+]

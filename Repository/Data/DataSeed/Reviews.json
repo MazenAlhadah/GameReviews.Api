@@ -1,0 +1,62 @@
+[
+  {
+    "userId": 1,
+    "gameId": 1,
+    "rating": 9,
+    "comment": "Amazing story and combat."
+  },
+  {
+    "userId": 2,
+    "gameId": 1,
+    "rating": 10,
+    "comment": "One of the best action games I have played."
+  },
+  {
+    "userId": 3,
+    "gameId": 2,
+    "rating": 8,
+    "comment": "Great combat and stylish gameplay."
+  },
+  {
+    "userId": 1,
+    "gameId": 3,
+    "rating": 10,
+    "comment": "Excellent open-world RPG with a great story."
+  },
+  {
+    "userId": 4,
+    "gameId": 3,
+    "rating": 9,
+    "comment": "Huge world with lots of things to explore."
+  },
+  {
+    "userId": 2,
+    "gameId": 4,
+    "rating": 9,
+    "comment": "Challenging but very rewarding."
+  },
+  {
+    "userId": 5,
+    "gameId": 5,
+    "rating": 10,
+    "comment": "Fantastic characters and storytelling."
+  },
+  {
+    "userId": 3,
+    "gameId": 6,
+    "rating": 8,
+    "comment": "A very deep strategy game."
+  },
+  {
+    "userId": 4,
+    "gameId": 8,
+    "rating": 9,
+    "comment": "Very fun especially with friends."
+  },
+  {
+    "userId": 5,
+    "gameId": 10,
+    "rating": 9,
+    "comment": "Beautiful art style and great exploration."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Action",
+    "description": "Fast-paced combat and reflex-driven gameplay"
+  },
+  {
+    "name": "RPG",
+    "description": "Story-rich games with character progression"
+  },
+  {
+    "name": "Strategy",
+    "description": "Planning, resource management and tactics"
+  },
+  {
+    "name": "Sports",
+    "description": "Sports simulations and arcade sports games"
+  },
+  {
+    "name": "Adventure",
+    "description": "Exploration and puzzle-driven experiences"
+  }
+]
