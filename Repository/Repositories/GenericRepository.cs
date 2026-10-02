@@ -64,10 +64,15 @@ namespace Repository.Repositories
         public Task<T?> GetEntityWithSpecAsync(ISpecification<T> Spec)
         {
             var Query = _db.Set<T>().AsQueryable();
+            
             if (Spec.Criteria != null) Query = Query.Where(Spec.Criteria);
             foreach (var Include in Spec.Includes)
             {
                 Query = Query.Include(Include);
+            }
+            foreach (var IncludeString in Spec.IncludeStrings)
+            {
+                Query = Query.Include(IncludeString);
             }
             if (Spec.OrderBy != null)
             {
@@ -79,6 +84,7 @@ namespace Repository.Repositories
                 Query = Query.OrderByDescending(Spec.OrderByDescending);
 
             }
+
             return Query.FirstOrDefaultAsync();
         }
 

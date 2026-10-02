@@ -15,7 +15,7 @@ namespace Domain.Specifications
         public Expression<Func<T, object>> OrderBy { get; set; }
         public Expression<Func<T, object>> OrderByDescending { get; set; }
 
-
+        public List<string> IncludeStrings { get; set; }
 
     }
 }

@@ -3,6 +3,8 @@ using Domain.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Repository.Data;
 using Repository.Repositories;
+using Service.Implementations;
+using Service.Interfaces;
 using Service.Mapping;
 
 namespace GameReviews.Api
@@ -27,7 +29,9 @@ namespace GameReviews.Api
 
             builder.Services.AddAutoMapper(x=> { },typeof(MappingProfile));
 
-
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IGameService, GameService>();
 
 
 
